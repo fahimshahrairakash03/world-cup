@@ -301,3 +301,64 @@ hr {
     margin-top: 20px;
   }
 }
+
+@media screen and (min-width: 643px) and (max-width: 992px) {
+  header {
+    width: 100%;
+    position: relative;
+    right: 15px;
+  }
+  header .content {
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px;
+  }
+  .content h1 {
+    margin-bottom: 40px;
+    top: 0px;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+  }
+  .content p {
+    width: 250px;
+    text-align: justify;
+  }
+  .content .btn {
+    position: relative;
+    top: 40px;
+  }
+  .banner-pic img {
+    width: 400px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 60px;
+  }
+  .blog-con,
+  .newsfeed {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-menu {
+    position: absolute;
+    top: 700px;
+    left: 80px;
+    width: 650px;
+    height: 100px;
+    display: block;
+    background-color: white;
+  }
+  .menu-btn {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .blog-menu1 {
+    display: none;
+  }
+  #view-btn {
+    visibility: visible;
+  }
+  hr {
+    width: 500px;
+    margin-top: 20px;
+  }
+}
